@@ -1,0 +1,127 @@
+<html>
+
+<body>
+
+<p id="dem"></p>
+
+<script>
+function function1(a, b) {
+  return a * a;
+}
+document.getElementById("dem").innerHTML = function1(10);
+</script>
+
+
+<p id="dem1"></p>
+
+<script>
+
+function addNum(num1, num2) {
+
+  return num1 + num2;
+
+}
+
+document.getElementById("dem1").innerHTML = "The addition of the two numbers is " + addNum(10,3);
+
+</script>
+
+<p id="dem2"></p>
+
+<script>
+
+function multiNum(num1, num2) {
+
+  return num1 * num2;
+
+}
+
+document.getElementById("dem2").innerHTML = "The multiplication of the two numbers is " + multiNum(10, 3);
+
+</script>
+
+<p id="dem3"></p>
+
+<script>
+
+function subtractNum(num1, num2) {
+
+  return num1 - num2;
+
+}
+
+document.getElementById("dem3").innerHTML = "The subtraction of the two numbers is " + subtractNum(10, 3);
+
+</script>
+
+<p id="dem4"></p>
+
+<script>
+
+function divideNum(num1, num2) {
+
+  return num1 / num2;
+
+}
+
+document.getElementById("dem4").innerHTML ="The division of the two numbers is " + divideNum(10,3);
+
+</script>
+
+<p id="dem5"></p>
+
+<script>
+
+function dem5() {
+
+  alert("Hello World");
+
+}
+
+dem5();
+
+</script>
+
+<p id="dem6"></p>
+
+<script>
+
+function volume(l,h,w) {
+
+  return l * w * h;
+
+}
+
+document.getElementById("dem6").innerHTML = "The volume is " + volume(10,3,2);
+
+</script>
+
+<p id="dem7"></p>
+
+<script>
+
+var per = {
+
+  firstName:"Nimal", lastName:"Raj.", age:"15", city:"Kandy"
+
+};
+
+document.getElementById("dem7").innerHTML = "My name is " + per.firstName + per.lastName + " I’m " + per.age + "years old." + "I live in " + per.city;
+
+</script>
+
+<p id="dem8"></p>
+
+<script>
+
+var coz = {
+
+courseName:"BIT", courseFee:"Rs 150 000", startDate:"12.06.2018", center:"Our Office"
+
+};
+
+document.getElementById("dem8").innerHTML = "courseName- " + coz.courseName +"<br>"+ "courseFee- " + coz.courseFee +"<br>"+ "startDate- " + coz.startDate +"<br>"+  "center- " + coz.center;
+
+</script>
+</body>
+</html>
